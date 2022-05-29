@@ -1,5 +1,0 @@
-.gitignore
-config.json
-.gitattributes
-package-lock.json
-package.json
