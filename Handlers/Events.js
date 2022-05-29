@@ -1,7 +1,7 @@
-const { Events } = require("../Validation/EventNames");
-const { promisfy } = require("util");
-const { glob } = require(glob);
-const PG = promisfy(glob);
+const { Events } = require("./Validation/EventNames.js");
+const { promisify } = require("util");
+const { glob } = require("glob");
+const PG = promisify(glob);
 const Ascii = require("ascii-table");
 
 module.exports = async (client) => {
